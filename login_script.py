@@ -106,7 +106,6 @@ async def main():
 async def send_telegram_message(message):
     url = f"https://api.day.app/3GeYViP5W5fmXySaK8tHv5/"
     payload = {
-        'chat_id': TELEGRAM_CHAT_ID,
         'text': message,
         'reply_markup': {
             'inline_keyboard': [

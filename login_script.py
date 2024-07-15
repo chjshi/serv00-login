@@ -104,7 +104,7 @@ async def main():
     print(f'所有{serviceName}账号登录完成！')
 
 async def send_telegram_message(message):
-    url = f"https://api.day.app/3GeYViP5W5fmXySaK8tHv5/"
+    url = f"https://api.day.app/3GeYViP5W5fmXySaK8tHv5/message"
     payload = {
         'text': message,
         'reply_markup': {
